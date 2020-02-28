@@ -76,7 +76,6 @@ class Hangman extends Component {
     return (
       <div className="Hangman">
         <h1>Hangman</h1>
-        <h2>{this.props.maxWrong} wrong guesses and you lose 🤣</h2>
         <img
           src={this.props.images[this.state.nWrong]}
           alt={`Wrong Guesses: ${this.state.nWrong}`}

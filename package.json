@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://pchandler858.github.io/hangman-react-app/",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-scripts": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,9 +17,9 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1",
-    "enzyme-to-json": "^3.3.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.4",
     "gh-pages": "^2.2.0"
   }
 }
